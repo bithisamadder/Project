@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 5px 5px;
+  }
+  
+  .container {
+    background-color: #6b84c8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    color: rgb(81, 10, 61);
+    margin: 5px;
+    font-weight: bold;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-style: inherit;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #0f031b;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    background-color: #180198;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgb(15, 2, 47);
+  }
+  
+  button:active {
+    background-color: #d607ccdb;
+  }
+  
+  

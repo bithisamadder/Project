@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration Form</title>
+  <link rel="stylesheet" href="style 2.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Create an Account</h1>
+    <form action="#" method="POST">
+      <!-- Name input field -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name">
+    
+      <!-- Address input field -->
+      <label for="address">Address:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full address">
+
+      <!-- Dropdown list -->
+      <label for="userType">Select Cake Items:</label>
+      <select id="userType" name="userType">
+        <option value="Vanilla Flavour">Vanilla Flavour</option>
+        <option value="Chocolate Flavour">Chocolate Flavour</option>
+        <option value="Black Forest">Black Forest</option>
+        <option value="White Forest">White Forest</option>
+        <option value="Fruits Cake">Fruits Cake</option>
+        <option value="Mango Flavour">Mango Flavour</option>
+        <option value="Orange Mousse">Orange Mousse</option>
+        <option value="Red Velvet">Red Velvet</option>
+        <option value="Strowbery Cake">Strowbery Cake</option>
+        <option value="Chocolate Mousse">Chocolate Mousse</option>
+        <option value="Moffen Cake">Moffen Cake</option>
+        <option value="Bluebery Cake">Bluebery Cake</option>
+      </select>
+
+      <!-- Email input field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+      <!-- Password input field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+      <!-- Contact number input field -->
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number">
+
+      <!-- Payment amount input field -->
+      <label for="payment">Payment Amount (TK):</label>
+      <input type="number" id="payment" name="payment" required placeholder="Enter payment amount" min="1">
+
+      <!-- Submit button -->
+      <button type="submit">CONFIRM</button>
+    </form>
+  </div>
+</body>
+</html>
